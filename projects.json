@@ -1,0 +1,49 @@
+{
+    "python": [
+        {
+        "image": "http://127.0.0.1:3000/projects/python/calculator.jpg",
+        "title": "Calculator",
+        "description": "A calculator app built with Python using CustomTkinter.",
+        "link": "https://github.com/Ayoub788jf/CustomTkinter-Calculator"
+        },
+        {
+        "image": "http://127.0.0.1:3000/projects/python/weather app.jpg",
+        "title": "Weather App",
+        "description": "A weather app using Python and OpenWeatherMap API.",
+        "link": "https://github.com/Ayoub788jf/Weather-Now-"
+        },
+        {
+        "image": "http://127.0.0.1:3000/projects/python/company management.jpg",
+        "title": "company manegement app",
+        "description": "A desktop-based employee and department management system developed using Python and Tkinter.",
+        "link": "https://github.com/Ayoub788jf/Company-Management-System-"
+        }
+    ],
+    "js": [
+        {
+        "image": "http://127.0.0.1:3000/projects/javascript/todolist.jpg",
+        "title": "To-Do List",
+        "description": "A JavaScript to-do list with add and delete functionality.",
+        "link": "https://ayoub788jf.github.io/todolist/"
+        },
+        {
+        "image": "http://127.0.0.1:3000/projects/javascript/image search.jpg",
+        "title": "Image Search App",
+        "description": "A JavaScript app using an image search API to fetch photos.",
+        "link": "https://ayoub788jf.github.io/Animated-Image-Search-App/"
+        },
+        {
+        "image": "http://127.0.0.1:3000/projects/javascript/coinflip.jpg",
+        "title": "coinflip",
+        "description": "A JavaScript game where you can flip a coin and got heads or tails",
+        "link": "https://ayoub788jf.github.io/coinflip/"
+        },
+        {
+        "image": "http://127.0.0.1:3000/projects/javascript/quotegenerator.jpg",
+        "title": "Quote Generator",
+        "description": "A simple quote generator with Arabic UI using HTML, CSS, and JavaScript.",
+        "link": "https://ayoub788jf.github.io/QuoteGenerator/"
+        }
+    ]
+}
+

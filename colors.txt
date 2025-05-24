@@ -1,0 +1,28 @@
+
+///////  light mode  //////////
+--primary: #007BFF        // Bright modern blue (buttons, links)
+--accent: #00C4CC         // Aqua blue (hover effects, icons)
+--background: #F9FAFB     // Light grayish white (page background)
+--text: #1F2937           // Dark charcoal (main content text)
+--card: #E5E7EB           // Soft gray (card/section background)
+
+//////// dark mode  ///////////
+--primary: #007BFF        // Bright modern blue (buttons, links)
+--accent: #00C4CC         // Aqua blue (hover effects, icons)
+--background: #0D1117     // Deep black-blue (dark background)
+--text: #C9D1D9           // Soft white-gray (readable text)
+--card: #161B22           // Dark gray (card/section background)
+
+///////////////////////////////////////////////////
+Dark Modern Blue Palette
+
+Background: #0D1117 – Deep black-blue
+
+Primary Accent (buttons, links): #1F6FEB – Modern bright blue
+
+Secondary Accent (hover, highlights): #58A6FF – Lighter blue
+
+Text: #C9D1D9 – Soft white-gray (easy on the eyes)
+
+Card/Section BG: #161B22 – Slightly lighter than main background
+//////////////////////////////////////////////
