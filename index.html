@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aos.css">
+
+</head>
+<body>
+    <div class="all">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    <header>
+        <h1 class="hh" data-aos="fade-in" data-aos-delay="200" data-aos-duration="1000" id="logo">ayoub kharraz</h1>
+        <nav>
+            <!-- <img src="icons/sun.svg" alt="image" id="dark"> -->
+            <a href="#pro" data-aos="zoom-out" data-aos-delay="200" data-aos-duration="1000">projects</a>
+            <a href="#cont" data-aos="zoom-out" data-aos-delay="200" data-aos-duration="1000">contact</a>
+            <a href="#abo" data-aos="zoom-out" data-aos-delay="200" data-aos-duration="1000">about</a>
+        </nav>
+        <img data-aos="zoom-out" data-aos-delay="200" data-aos-duration="1000" src="icons/menu_hamburger-128.png" alt="" class="tog">
+
+    </header>
+    
+    <!-- main -->
+    <div id="particles-js"></div>
+    <main>
+        <!-- hero -->
+        <div class="hero">
+            <div class="texts">
+                <h1 data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">HI I AM <span id="myname">ayoub</span><br>i am a <br><span id="writer"></span></h1>
+                <a href="" data-aos="fade-up" data-aos-delay="900" data-aos-duration="1000">contact</a>
+            </div>
+            <div class="image-bg" data-aos="zoom-in" data-aos-delay="2000" data-aos-duration="1000">
+                <img src="imgs/IMG-20220308-WA0000__1_-removebg-preview.png" alt="" id="coverimage">
+            </div>
+        </div>
+        <!-- about -->
+        <section id="abo">
+            <div class="about" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p class="description">
+                        👋 Hi! I'm <strong>Your Name</strong>, a passionate <span class="highlight">web developer</span> who loves building modern, clean, and user-friendly websites.
+                    </p>
+                    <div class="details">
+                        <div><strong>👨‍💻 What I do:</strong> Front-end & back-end development, UI/UX design, and responsive design.</div>
+                        <div><strong>🎯 Interests:</strong> Gaming, digital art, coding challenges, and learning new tech.</div>
+                    </div>
+                    <a href="#contact" class="btn">Let's Connect</a>
+                </div>
+                <section id="skills" data-aos="fade-up">
+                    <h2>my skills</h2>
+                
+                    <div class="skill">
+                    <h4>HTML</h4>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"  data-aos="slide-right" data-aos-delay="600" data-aos-duration="2000"></div>
+                    </div>
+                    </div>
+                
+                    <div class="skill">
+                    <h4>CSS</h4>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"  data-aos="slide-right" data-aos-delay="600" data-aos-duration="2000"></div>
+                    </div>
+                    </div>
+                
+                    <div class="skill">
+                    <h4>JavaScript</h4>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 55%;"  data-aos="slide-right" data-aos-delay="600" data-aos-duration="2000"></div>
+                    </div>
+                    </div>
+                
+                    <div class="skill">
+                    <h4>python</h4>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"  data-aos="slide-right" data-aos-delay="600" data-aos-duration="2000"></div>
+                    </div>
+                    </div>
+                
+                </section>
+                
+            </div>
+
+        </section>
+        <!-- projects -->
+        <section id="pro">
+            <div class="projects">
+                <h1>My Projects</h1>
+
+                <div class="filter-buttons">
+                    <button class="filter-btn active" id="all" class="bnn">All</button>
+                    <!-- <button class="filter-btn" id="css" class="bnn">HTML/CSS</button> -->
+                    <button class="filter-btn" id="js" class="bnn">JavaScript</button>
+                    <button class="filter-btn" id="python" class="bnn">Python</button>
+                </div>
+                <div class="showprojects">
+
+                </div>
+            </div>
+        </section>
+        
+        <!-- contact -->
+        <!-- contact -->
+        <section id="contact" class="contact-icons">
+            <a href="https://www.linkedin.com/in/ayoub-ayoub-a91595351/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="icon-link">
+                <img src="icons/Circled_Linkedin_svg-64.png" alt="LinkedIn" />
+            </a>
+            <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="icon-link">
+                <img src="icons/instagram.png" alt="Instagram" />
+            </a>
+            <a href="https://github.com/Ayoub788jf" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="icon-link">
+                <img src="icons/github-sign.png" alt="github" />
+            </a>
+        </section>
+
+
+
+    </main>
+    <hr>
+    <!-- footer -->
+    <footer>
+        <p>&copy; 2025 ayoub. all right reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/particles.min.js"></script>
+    
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function() {
+        console.log('Particles loaded!');
+    });
+    </script>
+
+</body>
+</html>
